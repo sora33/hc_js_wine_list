@@ -1,0 +1,46 @@
+
+body{
+  background: white;
+  padding: 2rem;
+}
+p{
+  margin-block-start: 0;
+  margin-block-end: .5rem;
+}
+
+#loading {
+  display: none;
+}
+
+#wine-selector label {
+  margin-right: 1rem;
+}
+
+#wine-list {
+  margin-top: 1rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+.wine-box {
+  border: 2px solid #111;
+  padding: 1rem;
+  border-radius: .5rem;;
+}
+.wine-name{
+  font-size: 1rem;
+}
+.wine-image {
+  text-align: center;
+  width: 10rem;
+  height: 10rem;
+  background-color: white;
+  margin: 1rem auto;
+  padding: 1rem;
+}
+.wine-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
